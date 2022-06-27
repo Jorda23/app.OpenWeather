@@ -171,3 +171,204 @@ body{
   margin-left: 40px;
   top: 140px;
 }
+
+
+@media (max-width: 800px) {
+  .navbar {
+    width: 100%;
+  }
+
+  .card {
+    max-width: 60%;
+  }
+  
+  .card-title{
+    position: absolute;
+    padding: 20px;
+  }
+  
+  .card-date{
+    position: absolute;
+    padding-left: 20px;
+    margin-top: 60px;
+  }
+  
+  .card-desc{
+    position: absolute;
+    padding-left: 20px;
+    margin-top: 320px;
+  }
+  
+  .card2 {
+    position: relative;
+    width: 100%;
+    height: 1350px;
+    border-radius: 25px;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .card2 {
+    position: relative;
+    width: 90%;
+  }
+  
+  .card2::after {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+  }
+  
+  .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .imagen{
+    position: absolute;
+    margin-top: -55px;
+    margin-left: -300px;
+    width: 1200px;
+    height: 1370px;
+    border-radius: 25px;
+    z-index: -2;
+  }
+  
+  .text-for-img{
+    top: 20%;
+    left: 1%;
+    font-size: 15px;
+    color: white;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .card-date {
+    position: relative;
+    left: 20px;
+    z-index: 4;
+  }
+  
+  .card-body2 {
+    margin-top: 100px;
+    margin-left: 16px;
+    background-color: #ffffffb4;
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+    box-shadow: 5px 2px 8px rgba(19, 19, 19, 0.788);
+    overflow: hidden;
+    z-index: 5;
+  }
+
+  .card-body2 {
+    position: relative;
+    width: 90%;
+  }
+  
+  .card-body2::after {
+    display: block;
+    padding-bottom: 100%;
+  }
+  
+  .card-date-Principal{
+    position: absolute;
+    color: rgb(36, 36, 36);
+    margin-top: 70px;
+    margin-left: 35px;
+    font-weight: bold;
+  }
+  
+  .card-title{
+    color: #131313;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    right: 20px;
+  }
+  
+  .text-pred {
+    margin-top: 20px;
+    color: rgb(29, 28, 29);
+  }
+  
+  .card-temp{
+    color: #3C3D59;
+    position: absolute;
+    padding-left: 30px;
+    margin-top: -20px;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  .card-desc {
+    margin-top: 30px;
+  }
+  
+  .Card-Text-Body {
+    border-left: 2px solid rgba(46, 45, 45, 0.705);
+    padding: 8px;
+    margin-top: 120px;
+    margin-left: 30px;
+    color: rgba(46, 45, 45, 0.705);
+    text-align: left;
+  }
+  
+  .card-text{
+    font-size: 18px;
+  }
+  
+  .container-predition {
+    margin-left: 32px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 200px 200px;
+    grid-gap: 10px;
+    
+  }
+  
+  .col-container{
+    background-color: #878b8cbb;
+    border-radius: 5px;
+    text-align:left;
+    padding: 10px 0;
+    color: #223440;
+    width: 37%;
+    height: 200px;
+    box-shadow: 1px 4px 10px rgba(19, 19, 19, 0.411);
+  }
+  
+  .col-container {
+    position: relative;
+    width: 90%;
+  }
+  
+  .col-container::after {
+    display: block;
+    padding-bottom: 100%;
+  }
+  
+  .temp {
+    color: #161F26;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -130px;
+    margin-left: 40px;
+  }
+  
+  .description{
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+  
+  .date-predition{
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    margin-left: 40px;
+    top: 140px;
+  }
+}
+
