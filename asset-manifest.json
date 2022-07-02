@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Jorda23/app.OpenWeather.git/static/css/main.73c6275e.css",
+    "main.js": "/Jorda23/app.OpenWeather.git/static/js/main.e75dfdcf.js",
+    "static/js/512.2fdb8b32.chunk.js": "/Jorda23/app.OpenWeather.git/static/js/512.2fdb8b32.chunk.js",
+    "index.html": "/Jorda23/app.OpenWeather.git/index.html",
+    "main.73c6275e.css.map": "/Jorda23/app.OpenWeather.git/static/css/main.73c6275e.css.map",
+    "main.e75dfdcf.js.map": "/Jorda23/app.OpenWeather.git/static/js/main.e75dfdcf.js.map",
+    "512.2fdb8b32.chunk.js.map": "/Jorda23/app.OpenWeather.git/static/js/512.2fdb8b32.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73c6275e.css",
+    "static/js/main.e75dfdcf.js"
+  ]
+}
