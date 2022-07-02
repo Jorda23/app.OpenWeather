@@ -1,4 +1,4 @@
-body{
+body {
   background-color: #161F26;
 }
 
@@ -7,7 +7,49 @@ body{
 }
 
 .navbar {
+  top: -97px;
+  position: relative;
   background-color: #223440;
+  z-index: 1;
+}
+/*boton github*/
+.Icon-Awesome{
+  color: white;
+  top: 0px;
+  left: 40%;
+  font-size: 35px;
+  position: relative;
+  z-index: 2;
+}
+
+.Icon-Awesome:hover {
+  color: rgba(255, 255, 255, 0.541);
+}
+
+/*Botones de ingles y español*/
+
+.banderas button {
+  top: -46px;
+  left: 35%;
+  position: relative;
+	border: none;
+	cursor: pointer;
+	background: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: inline-block;
+	width: 70px;
+	margin-left: -20px;
+  z-index: 3;
+}
+
+.banderas button img {
+	width: 60%;
+}
+
+.banderas button:hover{
+	opacity: 0.2;
 }
 
 .btn {
@@ -28,18 +70,18 @@ body{
   max-width: 60%;
 }
 
-.card-title{
+.card-title {
   position: absolute;
   padding: 20px;
 }
 
-.card-date{
+.card-date {
   position: absolute;
   padding-left: 20px;
   margin-top: 60px;
 }
 
-.card-desc{
+.card-desc {
   position: absolute;
   padding-left: 20px;
   margin-top: 320px;
@@ -54,7 +96,7 @@ body{
   overflow: hidden;
 }
 
-.imagen{
+.imagen {
   position: absolute;
   margin-top: -55px;
   margin-left: -220px;
@@ -64,9 +106,10 @@ body{
   z-index: 1;
 }
 
-.text-for-img{
+.text-for-img {
+  width: 500px;
   top: 20%;
-  left: 15%;
+  left: 7%;
   font-size: 20px;
   color: white;
   z-index: 2;
@@ -88,7 +131,7 @@ body{
   box-shadow: 5px 2px 8px rgba(19, 19, 19, 0.788);
 }
 
-.card-date-Principal{
+.card-date-Principal {
   position: absolute;
   color: rgb(36, 36, 36);
   margin-top: 80px;
@@ -96,7 +139,7 @@ body{
   font-weight: bold;
 }
 
-.card-title{
+.card-title {
   color: #131313;
   font-size: 22px;
   font-weight: bold;
@@ -108,7 +151,7 @@ body{
   color: rgb(29, 28, 29);
 }
 
-.card-temp{
+.card-temp {
   color: #3C3D59;
   position: absolute;
   padding-left: 30px;
@@ -136,18 +179,23 @@ body{
   grid-template-columns: auto auto;
   grid-template-rows: 200px 220px;
   grid-gap: 10px;
-  
+
 }
 
-.col-container{
+.col-container {
   background-color: #878B8C;
   border-radius: 5px;
-  text-align:left;
+  text-align: left;
   padding: 10px 0;
   color: #223440;
   width: 330px;
   height: 200px;
   box-shadow: 1px 4px 10px rgba(19, 19, 19, 0.411);
+}
+
+.col-container:hover{
+  background-color: #878b8c83;
+  color: #223440ab;;
 }
 
 .temp {
@@ -158,20 +206,19 @@ body{
   margin-left: 40px;
 }
 
-.description{
+.description {
   font-size: 20px;
   margin-top: 60px;
   margin-left: 40px;
 }
 
-.date-predition{
+.date-predition {
   font-size: 18px;
   font-weight: bold;
   position: relative;
   margin-left: 40px;
   top: 140px;
 }
-
 
 @media (max-width: 800px) {
   .navbar {
@@ -181,24 +228,24 @@ body{
   .card {
     max-width: 60%;
   }
-  
-  .card-title{
+
+  .card-title {
     position: absolute;
     padding: 20px;
   }
-  
-  .card-date{
+
+  .card-date {
     position: absolute;
     padding-left: 20px;
     margin-top: 60px;
   }
-  
-  .card-desc{
+
+  .card-desc {
     position: absolute;
     padding-left: 20px;
     margin-top: 320px;
   }
-  
+
   .card2 {
     position: relative;
     width: 100%;
@@ -207,25 +254,25 @@ body{
     overflow: hidden;
     z-index: 1;
   }
-  
+
   .card2 {
     position: relative;
     width: 90%;
   }
-  
+
   .card2::after {
     content: '';
     display: block;
     padding-bottom: 100%;
   }
-  
+
   .content {
     position: absolute;
     width: 100%;
     height: 100%;
   }
 
-  .imagen{
+  .imagen {
     position: absolute;
     margin-top: -55px;
     margin-left: -300px;
@@ -234,8 +281,8 @@ body{
     border-radius: 25px;
     z-index: -2;
   }
-  
-  .text-for-img{
+
+  .text-for-img {
     top: 20%;
     left: 1%;
     font-size: 15px;
@@ -243,13 +290,13 @@ body{
     z-index: 2;
     position: relative;
   }
-  
+
   .card-date {
     position: relative;
     left: 20px;
     z-index: 4;
   }
-  
+
   .card-body2 {
     margin-top: 100px;
     margin-left: 16px;
@@ -266,34 +313,34 @@ body{
     position: relative;
     width: 90%;
   }
-  
+
   .card-body2::after {
     display: block;
     padding-bottom: 100%;
   }
-  
-  .card-date-Principal{
+
+  .card-date-Principal {
     position: absolute;
     color: rgb(36, 36, 36);
     margin-top: 70px;
     margin-left: 35px;
     font-weight: bold;
   }
-  
-  .card-title{
+
+  .card-title {
     color: #131313;
     font-size: 20px;
     font-weight: bold;
     position: relative;
     right: 20px;
   }
-  
+
   .text-pred {
     margin-top: 20px;
     color: rgb(29, 28, 29);
   }
-  
-  .card-temp{
+
+  .card-temp {
     color: #3C3D59;
     position: absolute;
     padding-left: 30px;
@@ -301,11 +348,11 @@ body{
     font-size: 50px;
     font-weight: bold;
   }
-  
+
   .card-desc {
     margin-top: 30px;
   }
-  
+
   .Card-Text-Body {
     border-left: 2px solid rgba(46, 45, 45, 0.705);
     padding: 8px;
@@ -314,41 +361,41 @@ body{
     color: rgba(46, 45, 45, 0.705);
     text-align: left;
   }
-  
-  .card-text{
+
+  .card-text {
     font-size: 18px;
   }
-  
+
   .container-predition {
     margin-left: 32px;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 200px 200px;
     grid-gap: 10px;
-    
+
   }
-  
-  .col-container{
+
+  .col-container {
     background-color: #878b8cbb;
     border-radius: 5px;
-    text-align:left;
+    text-align: left;
     padding: 10px 0;
     color: #223440;
     width: 37%;
     height: 200px;
     box-shadow: 1px 4px 10px rgba(19, 19, 19, 0.411);
   }
-  
+
   .col-container {
     position: relative;
     width: 90%;
   }
-  
+
   .col-container::after {
     display: block;
     padding-bottom: 100%;
   }
-  
+
   .temp {
     color: #161F26;
     font-size: 40px;
@@ -356,14 +403,14 @@ body{
     margin-top: -130px;
     margin-left: 40px;
   }
-  
-  .description{
+
+  .description {
     font-size: 20px;
     margin-top: 60px;
     margin-left: 40px;
   }
-  
-  .date-predition{
+
+  .date-predition {
     font-size: 18px;
     font-weight: bold;
     position: relative;
@@ -371,4 +418,3 @@ body{
     top: 140px;
   }
 }
-
